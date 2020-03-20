@@ -45,6 +45,7 @@ public class MainActivity extends baseActivity {
         PizzaStores.add(new pizzaStore("반올림피자샵","phinf.pstatic.net/MjAxODEyMDVfMzYg/MDAxNTQzOTYxOTA4NjM3.8gsStnhxz7eEc9zpt5nmSRZmI-Pzpl4NJvHYU-Dlgmcg.7Vpgk0lopJ5GoTav3CUDqmXi2-_67S5AXD0AGbbR6J4g.JPEG/IMG_1641.jpg?type=w1200","01066666666"));
         PizzaStores.add(new pizzaStore("미스터피자","https://pbs.twimg.com/profile_images/1098371010548555776/trCrCTDN_400x400.png","01077777777"));
 
+        psa.notifyDataSetChanged();
 
 
     }
